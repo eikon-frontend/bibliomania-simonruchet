@@ -13,3 +13,153 @@
 }
 
 /* 🦊 Vos styles ici */
+
+body {
+  background-color: #192C44;
+  margin: 0;
+  font-family: "IBM Plex Sans";
+  background-image: url(img/couvertures/saccage_couverture_fond.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.couv {
+  max-width: 100%;
+  display: flex;
+}
+
+.couverture {
+  margin-top: 103px;
+  border-radius: 5px;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.couvetbutton {
+  position: relative;
+}
+
+.button_collection {
+  width: 6%;
+  position: absolute;
+  bottom: -5%;
+  right: 19%;
+  fill: #EBD09E;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+
+}
+
+.texte {
+  padding-left: 20%;
+  padding-right: 10%;
+}
+
+h1 {
+  color: #EAEAEA;
+  font-size: 9vw;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+
+.auteur {
+  color: #EAEAEA;
+  font-size: 4.7vw;
+}
+
+.date {
+  color: #BCC1C8;
+  font-size: 4vw;
+  margin-top: 4px;
+}
+
+.stars1 {
+  height: 4.5vw;
+  display: flex;
+  justify-content: end;
+  margin-right: 14%;
+}
+
+.genre {
+  color: #192C44;
+  font-weight: 500;
+  font-size: 4vw;
+  width: 27%;
+  height: 5%;
+  padding: 1.7% 2.5%;
+  justify-content: center;
+  border-radius: 7px;
+  background: #EBD09E;
+  display: flex;
+
+
+
+
+}
+
+.resume {
+  padding-left: 20%;
+  padding-right: 10%;
+  color: #ABB1B8;
+  font-size: 4vw;
+}
+
+.line {
+  display: flex;
+  margin: auto;
+  margin-top: 45px;
+}
+
+
+
+.commentaire1 {
+  position: relative;
+  color: #EAEAEA;
+  font-weight: 400;
+  font-size: 3.5vw;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 18vw;
+
+  align-items: center;
+  border-radius: 7px;
+  background: #142336;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+
+}
+
+.commentaire1 p {
+  position: absolute;
+  margin-left: 14%;
+  margin-top: 10%;
+
+
+}
+
+.commentaire1 .profil {
+  position: absolute;
+  height: 45%;
+  top: 7%;
+  left: 1%;
+}
+
+.commentaire1 .pouce {
+  position: absolute;
+  top: 75%;
+  right: 2%;
+  height: 50%;
+}
+
+.commentaire1 .stars2 {
+  position: absolute;
+  height: 18%;
+  display: flex;
+  left: 14%;
+  top: 15%;
+
+}
