@@ -1,32 +1,205 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
-        <select class="star-rating" aria-label="Note utilisateur">
-            <option value="">Select a rating</option>
-            <option value="5">Excellent</option>
-            <option value="4">Very Good</option>
-            <option value="3">Average</option>
-            <option value="2">Poor</option>
-            <option value="1">Terrible</option>
-        </select>
-    -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- 🦊 Votre page ici -->
+
+
+
+  <div class="couvetbutton">
+    <div class="couv"><img class="couverture" src="img/couvertures/saccage_couverture.jpg"></div>
+    <img class="button_collection" src="img/collection.svg">
+  </div>
+  <div class="texte">
+    <h1>Saccage</h1>
+    <div class="auteur">Frederik Peeters</div>
+    <div class="date"> 2019</div>
+
+    <div class="stars1">
+      <img class="star" src="img/star-full.svg">
+      <img class="star" src="img/star-full.svg">
+      <img class="star" src="img/star-full.svg">
+      <img class="star" src="img/star-demi-full.svg">
+      <img class="star" src="img/star-empty.svg">
+    </div>
+  </div>
+
+  <div class="genres">
+    <div class="genre"> Autobiographie</div>
+    <div class="genre"> Phylosophique</div>
+  </div>
+
+  <div class="resume"> C’est une méditation poétique sur la nature et la solitude. L'auteur partage ses expériences
+    d'entomologiste sur une île suédoise, offrant des réflexions profondes sur la vie, la mort et notre impact sur
+    l'environnement. Ce récit captivant invite les lecteurs à ralentir, à contempler la beauté fragile de la nature et
+    à
+    réfléchir à notre place dans le monde. </div>
+
+  <img class="line" src="img/line.svg">
+
+
+  <div class="commentaire">
+    <div class="profil_stars">
+      <img class="profil" src="img/profil.svg">
+      <div class="stars2">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-empty.svg">
+      </div>
+    </div>
+    <p>
+      Cela nous fait réfléchir à notre place dans le monde. J'adore </p>
+    <img class="pouce" src="img/pouce.svg">
+  </div>
+
+
+
+  <div class="commentaire">
+    <div class="profil_stars">
+      <img class="profil" src="img/profil.svg">
+      <div class="stars2">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-demi-full.svg">
+        <img class="star" src="img/star-empty.svg">
+        <img class="star" src="img/star-empty.svg">
+      </div>
+    </div>
+    <p>
+      J'ai aimé que la fin...</p>
+    <img class="pouce" src="img/pouce.svg">
+  </div>
+
+
+  <div class="commentaire">
+    <div class="profil_stars">
+      <img class="profil" src="img/profil.svg">
+      <div class="stars2">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-empty.svg">
+        <img class="star" src="img/star-empty.svg">
+      </div>
+    </div>
+    <p>
+      Super constructif !</p>
+    <img class="pouce" src="img/pouce.svg">
+  </div>
+
+
+  <div class="commentaire">
+    <div class="profil_stars">
+      <img class="profil" src="img/profil.svg">
+      <div class="stars2">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-demi-full.svg">
+        <img class="star" src="img/star-empty.svg">
+      </div>
+    </div>
+    <p>
+      Pas mal, pas mal.</p>
+    <img class="pouce" src="img/pouce.svg">
+  </div>
+
+
+  <div class="commentaire">
+    <div class="profil_stars">
+      <img class="profil" src="img/profil.svg">
+      <div class="stars2">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-full.svg">
+        <img class="star" src="img/star-demi-full.svg">
+        <img class="star" src="img/star-empty.svg">
+        <img class="star" src="img/star-empty.svg">
+      </div>
+    </div>
+    <p>
+      J'ai lu mieux...</p>
+    <img class="pouce" src="img/pouce.svg">
+  </div>
+
+  <div class="voirplus">
+    voir plus (28)
+    <img class="arrow" src="img/arrow.svg">
+  </div>
+
+
+
+
+  <footer>
+
+    <div class="star_choix">
+      <select class="star-rating" aria-label="Note utilisateur">
+        <option value="">Select a rating</option>
+        <option value="5">Excellent</option>
+        <option value="4">Super</option>
+        <option value="3">Sans plus</option>
+        <option value="2">Mauvais</option>
+        <option value="1">Très mauvais</option>
+      </select>
+
+      <!-- 💡 Script pour gérer le rating d'un livre -->
+      <div class="note">
+        <script src="scripts/star-rating.min.js"></script>
+        <script>
+          var stars = new StarRating(".star-rating", {
+            tooltip: "a",
+          });
+        </script>
+      </div>
+    </div>
+    <div class="profil_ecrire_avis">
+      <img class="profil" src="img/profil.svg">
+
+      <div class="ecrire_avis">
+        Écrivez un avis
+        <img class="arrow2" src="img/arrow2.svg">
+      </div>
+    </div>
+
+    <div class="picto">
+      <img class="accueil" src="img/accueil.svg">
+      <img class="recherche" src="img/recherche.svg">
+      <img class="biblio" src="img/biblio.svg">
+      <img class="profil2" src="img/profil2.svg">
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 💡 Décommentez cette balise et placez-la dans votre code afin
+    d'afficher le système de note Javascript -->
+
+
+</body>
+
 </html>
